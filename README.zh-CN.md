@@ -6,7 +6,8 @@ Open Collaborative Perception Visualization
 
 **OPENCPV** 是一个可独立运行的协同感知可视化工具。它将 DAIR-V2X-C 中配对的车端、路端相机图像与 LiDAR 点云，以及对应的 BEV 检测结果集成到同一画面。项目可在纯CPU环境中运行，支持浅色与深色主题、中文与英文标签，可导出 PNG 预览图和 MP4 视频。
 
-<video src="docs/assets/OPENCPV_mini_axes.mp4" poster="docs/assets/preview.jpg" controls muted playsinline preload="metadata" width="100%"></video>
+https://github.com/user-attachments/assets/67579e22-2a6f-4db6-aee4-1a25ab9d80c2
+<!-- <video src="docs/assets/OPENCPV_mini_axes.mp4" poster="docs/assets/preview.jpg" controls muted playsinline preload="metadata" width="100%"></video> -->
 
 [观看示例视频](docs/assets/OPENCPV_mini_axes.mp4) · 使用随项目提供的 DAIR-V2X mini 数据，展示两端相机、点云及 BEV 检测结果。
 
