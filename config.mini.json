@@ -1,0 +1,36 @@
+{
+  "dataset_root": "examples/DAIR-V2X-mini",
+  "title": "ParaComm | TMC 2026",
+  "language": "en",
+  "theme": "light",
+  "on_missing": "error",
+  "limit": 10,
+  "results": {
+    "directory": "examples/vis_intermediate_epoch13_mini",
+    "mode": "auto",
+    "split_file": "examples/DAIR-V2X-mini/cooperative-vehicle-infrastructure/val.json",
+    "split_key": "val",
+    "crop_margins": [0.16666666666666666, 0, 0.16666666666666666, 0],
+    "rotation": 90
+  },
+  "layout": {
+    "show_frame_info": true,
+    "panel_padding": 16
+  },
+  "video": {
+    "output": "exports/OPENCPV_mini_axes.mp4",
+    "size": [1920, 1080],
+    "fps": 30,
+    "seconds_per_sample": 0.8
+  },
+  "point_cloud": {
+    "coordinates": "local",
+    "bounds": [-30, -40, -4, 90, 40, 8],
+    "azimuth": -60,
+    "elevation": 55,
+    "zoom": 1.3,
+    "max_points": 100000,
+    "point_size": 1,
+    "color_by": "height"
+  }
+}

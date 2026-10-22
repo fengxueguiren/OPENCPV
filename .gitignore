@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+exports/
+*.partial.mp4
+config.local.json
+*.egg-info/
+build/
+dist/

@@ -1,0 +1,48 @@
+{
+  "dataset_root": "/data/DAIR-V2X-C/cooperative-vehicle-infrastructure",
+  "title": null,
+  "language": "en",
+  "theme": "light",
+  "on_missing": "placeholder",
+  "limit": null,
+  "results": {
+    "directory": "/data/experiments/OPENCPV/vis_intermediate",
+    "mode": "auto",
+    "glob": "bev_*.png",
+    "id_regex": "^bev_(\\d+)\\.png$",
+    "split_file": "/data/DAIR-V2X-C/cooperative-vehicle-infrastructure/val.json",
+    "split_key": "val",
+    "index_base": 0,
+    "indices": null,
+    "crop": null,
+    "crop_margins": [0.16666666666666666, 0, 0.16666666666666666, 0],
+    "rotation": 90
+  },
+  "layout": {
+    "mode": "four_plus_bev",
+    "left_fraction": 0.65,
+    "show_frame_info": false,
+    "panel_padding": 16
+  },
+  "video": {
+    "output": "exports/dair_result.mp4",
+    "size": [1920, 1080],
+    "fps": 30,
+    "seconds_per_sample": 0.8,
+    "crf": 18,
+    "preset": "medium"
+  },
+  "point_cloud": {
+    "coordinates": "local",
+    "apply_system_error_offset": true,
+    "bounds": [-30, -40, -4, 90, 40, 8],
+    "azimuth": -60,
+    "elevation": 55,
+    "zoom": 1.3,
+    "max_points": 100000,
+    "point_size": 1,
+    "color_by": "height",
+    "height_range": [-2, 4],
+    "intensity_max": 255
+  }
+}
