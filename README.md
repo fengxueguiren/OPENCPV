@@ -4,9 +4,11 @@ Open Collaborative Perception Visualization
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
+
 **OPENCPV** is a standalone tool for visualizing collaborative perception. It brings paired vehicle and infrastructure camera images, LiDAR point clouds, and BEV detection results from DAIR-V2X-C into a single view for comparison. It runs on the CPU, with light and dark themes, English and Chinese labels, PNG previews, and MP4 export.
 
-<video src="docs/assets/OPENCPV_mini_axes.mp4" poster="docs/assets/preview.jpg" controls muted playsinline preload="metadata" width="100%"></video>
+https://github.com/user-attachments/assets/67579e22-2a6f-4db6-aee4-1a25ab9d80c2
+<!-- <video src="docs/assets/OPENCPV_mini_axes.mp4" poster="docs/assets/preview.jpg" controls muted playsinline preload="metadata" width="100%"></video> -->
 
 [Watch the example video](docs/assets/OPENCPV_mini_axes.mp4) · Cameras, point clouds, and BEV detections using the included DAIR-V2X mini dataset.
 
